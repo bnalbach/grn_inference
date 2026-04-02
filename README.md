@@ -1,11 +1,5 @@
 # Inferring Gene Regulatory Networks from Omics Data 
 
-<!-- Development (clean trajectories)
-- c. elegans -->
-
-> in a specific cell type (try on mouse than apply to human)
-Tissue: **Bone Marrow**
-
 ## Objective
 Uncover the dynamics of the major gene regulatory networks (GRN) involved in aging from single-cell omics data by applying a dynamical systems theory (DST) approach. DST is hereby choosen a framework, because of its potential to uncover the governing equations sturring the behavior of the system. The hope is, that this will allow modelling more complex relationships, then what would be possible using purely stocchastic approaches, while at the same time allowing much higher interpretability than what would be possible using a purely machine-learning based approach [[1](https://www.nature.com/articles/s41540-025-00565-3)]. The fundamental algorithm will be bassed on the concept of **Sparse Identification of Nonlinear Dynamics (SINDy)**, introduced by Brunton et al. (2016) [[2](https://www.pnas.org/doi/10.1073/pnas.1517384113), [3](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7809160)]. 
 
