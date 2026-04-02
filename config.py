@@ -1,0 +1,6 @@
+BASE_PATH = "/home/data/single_cell"
+TMS_PATH = "/home/data/single_cell/tabular_muris_senis"
+TMS_10x_PATH = "/home/data/single_cell/tabular_muris_senis/processed/TMS_bone_marrow_10x.h5ad"
+TMS_SMART_SEQ2_PATH = "/home/data/single_cell/tabular_muris_senis/processed/TMS_bone_marrow_smart-seq2.h5ad"
+GSE120221_PATH = "/home/data/single_cell/GSE120221"
+GSE132042_PATH = "/home/data/single_cell/tabular_muris_senis"

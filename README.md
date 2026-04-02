@@ -5,14 +5,13 @@ Uncover the dynamics of the major gene regulatory networks (GRN) involved in agi
 
 The model will be applied to different **bone marrow** datasets. At first the processing and architecture of **implicit SINDy** [[3](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7809160)] will adapted to be able to work with omics data, and evaluated by using it to infer the GRN of bone marrow differentiation, which should be simpler then uncovering the complex and also much more stacchastics based dynamics underlying aging. Afterwords the model will be applied to infer the GRN changes in mouse and human bone marrow aging.
 
-
 ## Steps
 1. Infer GRN of bone marrow differentiation (mouse)
 2. Infer GRN changes during bone marrow aging (mouse)
 3. Infer GRN of aging on human bone marrow dataset
 
 ## Data
-### GSE132042
+### Taular Mris Senis
 Mouse Datasets (Bone Marrow) (10x and Smart-seq2) \
 Part of the Tabula Muris Senis (TMS) dataset by CZ Biohub, a single-cell transcriptomics atlas covering data from 23 tissues and organs over the entire mouse lifespan. \
 [Download](https://cellxgene.cziscience.com/collections/0b9d8a04-bb9d-44da-aa27-705bb65b54eb)
@@ -30,6 +29,12 @@ Human Hematopoietic stem/progenitor cell (HSPC) Dataset (bulk RNA-seq?!) (young 
 [Download](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE264569) -->
 
 ## Results
+
+### Inferring Differentiation 
+Bone marrow was chosen as the tissue, because of its well characterized hierarchy, which can be utilized to infer pseudotime for the differentiation. 
+<p align="center">
+    <img src="images/hemopoiesis.png" height="500">
+</p>
 
 ## Random Stuff
 Then try to applying DST it to aging
